@@ -4,7 +4,7 @@ module.exports = function (app) {
     app.use(
         "/api",
         createProxyMiddleware({
-            target: "https://donymusic-server.vercel.app",
+            target: "https://don-gold.vercel.app",
             changeOrigin: true,
             secure: false,
         })
